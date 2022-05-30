@@ -1,27 +1,27 @@
-formulario que tendra  los datos en comun con create y edit
+Este formulario que tendra los datos del producto
 
-<h1>{{ $modo }} empleado</h1>
+<h1>{{ $modo }} producto</h1>
 <br>
-<label for="Nombre">Nombre</label>
+<label for="Nombre">Producto</label>
 <input type="text" name="Nombre" value="{{ isset($empleado->Nombre)?$empleado->Nombre:'' }}" id="Nombre">
 <br>
 
 
-<label for="ApellidoPaterno">Apellido Paterno</label>
+<label for="ApellidoPaterno">Descripcion</label>
 <input type="text" name="ApellidoPaterno" value="{{ isset($empleado->ApellidoPaterno)?$empleado->ApellidoPaterno:'' }}" id="ApellidoPaterno">
 <br>
 
 
-<label for="ApellidoMaterno">Apellido Materno</label>
+<label for="ApellidoMaterno">Marca</label>
 <input type="text" name="ApellidoMaterno" value="{{ isset($empleado->ApellidoMaterno)?$empleado->ApellidoMaterno:'' }}" id="ApellidoMaterno">
 <br>
 
 
-<label for="Correo">Correo</label>
+<label for="Correo">Correo de vendedor</label>
 <input type="text" name ="Correo" value="{{ isset($empleado->Correo)?$empleado->Correo:'' }}" id ="Correo">
 <br>
 
-<label for="Foto">Foto</label>
+<label for="Foto">Foto de producto</label>
 
 @if(isset($empleado->Foto))
 

@@ -11,18 +11,18 @@
 
 
 
-<a href="{{ url('empleados/create') }}">Registrar nuevo producto</a>
+<a href="{{ url('empleados/create') }}">Registrar nuevo USUARIO-VEHICULO</a>
 
 
 <table class="table table-light">
     <thead class="thead-light">
         <tr>
             <th>id</th>
-            <th>Foto de producto</th>
-            <th>producto</th>
-            <th>Descripcion</th>
-            <th>Marca</th>
-            <th>Correo de vendedor</th>
+            <th>Foto de vehiculo</th>
+            <th>Nombre usuario</th>
+            <th>Descripcion vehiculo</th>
+            <th>Marca vehiculo</th>
+            <th>Correo de usuario</th>
             <th>Acciones</th>
 
         </tr>
